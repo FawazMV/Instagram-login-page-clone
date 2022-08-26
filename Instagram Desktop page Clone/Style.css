@@ -8,7 +8,7 @@
 .leftside{
     float: left;
     width: 50% ;
-    height: 600px;
+    height: 650px;
     
     
 
@@ -27,7 +27,7 @@
     height: 600px;
     width: 441px;
     float:right;
-    background-image: url(phone\ back.png);
+    background-image: url(images/phone\ back.png);
     background-size: 470px 650px;
     background-repeat:no-repeat;
 
@@ -35,12 +35,14 @@
 .rightside{
     width: 50%;
     float: left;
+    height: 650px;
 }
 .loginbox{
     height: 335px;
     width: 35%;
     background-color:#fff;
-    border: 1px solid #dbdbdb;
+    border: 1px solid;
+    border-color:  #dbdbdb;
     margin-left: 26px;
     margin-top: 14px;
     padding: 38px;
@@ -110,4 +112,79 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 
+}
+.loginfoot{
+    height: 65px;
+    width: 45%;
+    background-color:#fff;
+    border: 1px solid #dbdbdb;
+    margin-left: 26px;
+    margin-top: 14px;
+
+}
+.dont{
+    margin-top: 25px;
+    margin-left: 63px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.up{
+    text-decoration: none;
+    color:rgb(60, 136, 212);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+.get{
+    margin-top: 47px;
+    margin-left: 125px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.apple{
+    height: 37px;
+    width: auto;
+    margin-left: 33px;
+    margin-top: 10px;
+    
+}
+.google{
+    margin-left: 10px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+.cenfoot{
+    float: left;
+    height: 75px;
+    margin-top: 15px;
+    margin-left: 20%;
+
+    width: 60%;
+}
+.abc{
+    font-family: ans-serif;
+    font-size: 12px;
+    text-decoration: none ;
+    margin-left: 22px;
+    color: rgba(var(--f52,142,142,142),1)
+}
+.newline{
+    padding-left: 42px;
+}
+#abcde{
+    float: left;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size:12px;
+    color: rgba(var(--f52,142,142,142),1)
+}
+.a{
+    margin-left: 22px;
+    float: left;
+    margin-top: 32px;
 }
